@@ -1,0 +1,13 @@
+#!/usr/bin/env bash 
+#While loop with a special line 9
+i=1
+while [ $i -le 10 ];
+do
+
+    if [ $i -eq 9 ]; then
+    echo "Hi"
+    	 
+    fi
+    echo "Best School"
+    (( i++ ))
+done
