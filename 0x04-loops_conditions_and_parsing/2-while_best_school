@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#Print Best School 10 times
+i = 1
+while i < 11:
+      do
+  print("Best School")
+  i += 1
+done
