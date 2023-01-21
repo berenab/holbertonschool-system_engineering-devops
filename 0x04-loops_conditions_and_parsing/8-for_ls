@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#List all fines in cd without first 2 chars
+files=$(ls)
+for f in $files;
+do
+      echo "$f" | cut -d '-' -f2 
+done
