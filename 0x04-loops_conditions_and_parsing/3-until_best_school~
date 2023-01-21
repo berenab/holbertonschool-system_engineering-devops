@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-# Until loop, terminates at 10 iterations 
-# i until it is not equal to 10
-i=0
-until [[ $i -eq 5 ]]
-do
-    echo "Best School"
-    ((i++))
-done
