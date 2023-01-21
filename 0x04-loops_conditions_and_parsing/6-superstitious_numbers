@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#4 bad luck from China, 9 from Japan, 17 from Italy
+#While-case loop; display 4 bad luck from China, 9 from Japan, 17 from Italy
 i=1
 while [ $i -le 20 ]
 do
