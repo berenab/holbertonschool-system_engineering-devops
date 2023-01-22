@@ -2,7 +2,7 @@
 #if else statements for existing, non empty, regular files
 if [ -e "school" ]; 
 then
-echo "school file is exist"
+echo "school file exists"
 if [ -s "school" ]; 
 then
 echo "school file is empty"
