@@ -1,15 +1,16 @@
 #!/usr/bin/env bash
 #if else statements for existing, non empty, regular files
-if [ -e "school" ]; 
+file="school"
+if [ -e "$file" ]; 
 then
 echo "school file exists"
-if [ -s "school" ]; 
+if [ -s "$file" ]; 
 then
 echo "school file is empty"
 else
 echo "school file is not empty"
 fi
-if [ -f "school" ]; 
+if [ -f "$file" ]; 
 then
 echo "school file is a regular file"
 fi
