@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Show PIDs of bash files
+# shellcheck disable=SC2009
+pidof bash
