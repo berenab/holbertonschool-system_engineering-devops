@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Behead the highlander!!
+pkill -f -sigkill 7-highlander
