@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-#show your bash pids made easy
-grep bash -1
